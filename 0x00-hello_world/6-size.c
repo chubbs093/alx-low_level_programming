@@ -2,6 +2,7 @@
 
 int main(void)
 {
+	
 	int i;
 	char c;
 	float f;
@@ -12,5 +13,6 @@ int main(void)
 	printf("Size of a long int: %l.\n", (unsigned long)sizeof(l));
 	printf("Size of a long long int: %l.\n", (unsigned long)sizeof(t));
 	printf("Size of a float: %l.\n", (unsigned long)sizeof(f));
+	
 	return (0);
 }
