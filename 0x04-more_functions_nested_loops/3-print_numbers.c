@@ -9,7 +9,7 @@ int i = 0;
 
 while (i <= 9)
 {
-putchar(i + '0');
+putchar(i);
 ++i;
 }
 _putchar('\n');
